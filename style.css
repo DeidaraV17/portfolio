@@ -1,6 +1,11 @@
 body{
     background-color: #1a1a1a;
 }
+a{
+    color: white;
+    font-size:medium;
+    justify-content: center;
+}
 li{
     color: #ffde59;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -22,4 +27,27 @@ img {
     display: block;
     margin-left:auto;
     margin-right: auto;
+}
+form label {
+    color: #ffde59;
+    font-size:medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form input{
+    background-color: #1a1a1a;
+    color: #d8d8d8;
+}
+nav{
+    display: flex;
+    background-color: #aa9956;
+    padding: 10px;
+}
+nav a{
+    color: #1a1a1a;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav p{
+    color: white;
+    text-align: left;
 }
